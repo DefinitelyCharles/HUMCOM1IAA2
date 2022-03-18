@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<title>Registration Form Charles Hanzel D. Gerardo</title>
+	</head>
+	<body style = "margin-left: 70px; margin-right: 70px; margin-top: 20px; background-color: #858585">
+		<h1 style = "text-align: center">Sign up now</h1>
+		<p style = "text-align: center">Fields marked * are required</p>
+		
+		<div style = "margin-left: 250px; margin-right: 250px">
+			<form>
+				<fieldset>
+					<legend>Your Details</legend>
+					<label for = "name">Name *</label>
+					<input type = "text" id = "name" name = "name" placeholder = "Full Name" maxlength = "100" style = "margin-left: 22px" required> <br><br>
+					<label for = "email">Email *</label>
+					<input type = "email" id = "email" name = "email" placeholder = "e.g. User@usermail.com" style = "margin-left: 21px" required> <br><br>
+					<label for = "phone">Phone *</label>
+					<input type = "phone" id = "phone" name = "phone" placeholder = "Insert eleven digit phone number" min = "0000000000" max = "99999999999" style = "margin-left: 20px" required> <br><br>
+				</fieldset>
+				
+				<fieldset>
+					<legend>Delivery Address</legend>
+					<label for = "address">Address *</label>
+					<input type = "text" id = "address" name = "address" placeholder = "House/Apt. Number and Street" maxlength = "100"  style = "margin-left: 75px" required> <br><br>
+					<label for = "district/barangay">District/Barangay *</label>
+					<input type = "text" id = "districtbarangay" name = "districtbarangay" placeholder = "District/Barangay" maxlength = "100" style = "margin-left: 12px" required> <br><br>
+					<label for = "phone">City *</label>
+					<select id = "city" name = "city" style = "margin-left: 98px" required>
+						<option value = "baguio">Baguio</option>
+					</select> <br><br>
+					<label for = "postal">Postal Code *</label>
+					<input type = "number" id = "postalcode" name = "postalcode" min = "0000" max = "9999" style = "margin-left: 48px" required> <br><br>
+					<label for = "phone">Province *</label>
+					<select id = "province" name = "province" style = "margin-left: 68px" required>
+						<option value = "abra">Abra</option>
+						<option value = "ifugao">Ifugao</option>
+						<option value = "pangasinan">Pangasinan</option>
+					</select> <br><br>
+				</fieldset>
+				
+				<fieldset>
+					<legend>Membership Information</legend>
+					<label for = "username">Username *</label>
+					<input type = "text" id = "username" name = "username" placeholder = "Username" maxlength = "100" style = "margin-left: 10px" required> <br><br>
+					<label for = "password">Password *</label>
+					<input type = "password" id = "password" name = "password" placeholder = "Password" style = "margin-left: 12px" required> <br><br>
+					
+					<label for = "magazine">Magazine</label>
+					<input type = "checkbox" id = "pcmagazine" name = "pcmagazine" value = "pcmagazine" style = "margin-left: 83px">
+					<label for = "pcmagazine">PCMagazine</label><br>
+					<label>Subscriptions</label>
+					<input type = "checkbox" id = "wired" name = "wired" value = "wired" style = "margin-left: 59px">
+					<label for = "wired">Wired</label><br>
+					<input type = "checkbox" id = "computerworld" name = "computerworld" value = "computerworld" style = "margin-left: 150px">
+					<label for = "computerworld">Computerworld</label><br>
+					<input type = "checkbox" id = "nosubscibe" name = "nosubscibe" value = "nosubscibe" style = "margin-left: 150px">
+					<label for = "nosubscribe">I don't Subscribe</label><br>
+					<input type = "checkbox" id = "others" name = "others" value = "others" style = "margin-left: 150px">
+					<label for = "others">Others</label><br>
+				</fieldset>
+				<br>
+				<input type = "submit" value = "Sign up">
+			</form>
+		</div>
+		
+	</body>
+</html>
