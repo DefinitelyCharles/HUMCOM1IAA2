@@ -1,0 +1,102 @@
+body {
+	background-image: url('Images/Gallery.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	margin: 20px 30px 50px 30px;
+}
+
+.content{
+	background-color: #333333;
+	position: fixed;
+	left: 15%;
+	width: 65%;
+	height: 75%;
+	margin: 10px 10px 0px;
+}
+.insideContent{
+	color: white;
+	margin: 0px 30px 20px 60px;
+}
+.insideContent h1 {
+	font-size: 50px;
+}
+.insideContent li {
+	font-size: 20px;
+}
+.insideContent a:link{
+	color: white;
+	text-decoration: none;
+}
+.insideContent a:visited{
+	color: white;
+	text-decoration: none;
+}
+.insideContent a:active{
+	color: white;
+	text-decoration: none;
+}
+.back {
+	background-color: transparent;
+	position: fixed;
+	top: 80%;
+	left: 15%;
+	width: 65%;
+	height: 10%;
+	margin: 0px 10px;
+}
+.back a{
+	color: #ffffff;
+	background-color: transparent;
+	text-align: center;
+	text-decoration: none;
+}
+.back a:hover {
+	border: 2px solid #ffffff;
+	color: #000000;
+	background-color: #ffffff;
+}
+.back button {
+	width: 100px;
+	height: 50px;
+	border: 2px solid #ffffff;
+	color: #ffffff;
+	background-color: transparent;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 10px;
+}
+.back button:hover {
+	border: 2px solid #ffffff;
+	color: #000000;
+	background-color: #ffffff;
+}
+
+@media only screen and (min-width: 1366px){
+	.content{
+	background-color: #222426;
+	position: fixed;
+	left: 15%;
+	width: 65%;
+	height: 75%;
+	margin: 10px 10px 0px;
+	}
+	.insideContent h1 {
+	font-size: 70px;
+	}
+	.insideContent li {
+	font-size: 50px;
+	}
+	.back button {
+	width: 150px;
+	height: 120px;
+	border: 2px solid #ffffff;
+	color: #ffffff;
+	background-color: transparent;
+	text-align: center;
+	text-decoration: none;
+	font-size: 30px;
+	margin: 10px;
+	}
+}
